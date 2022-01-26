@@ -1,13 +1,15 @@
 import { Header } from "./Header/Header";
 import { Homepage } from "../Homepage/Homepage";
-import { App } from "./styles.js";
+import { appDiv } from "./styles.js";
+import { GlobalStyle } from "./global.js";
 
 function App() {
   return (
-    <App>
+    <appDiv>
+      <GlobalStyle />
       <Header />
       <Homepage />
-    </App>
+    </appDiv>
   );
 }
 
