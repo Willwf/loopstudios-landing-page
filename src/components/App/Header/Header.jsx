@@ -1,22 +1,22 @@
-function Header() {
+import { Header, LogoLink, LogoImg, Nav, Ul, Li } from "./styles";
+
+function HeaderElement() {
   return (
-    <header>
-      <div className="logo">
-        <a href="#">
-          <img src="logo.svg" alt="Logo" />
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li>About</li>
-          <li>Careers</li>
-          <li>Events</li>
-          <li>Products</li>
-          <li>Support</li>
-        </ul>
-      </nav>
-    </header>
+    <Header>
+      <LogoLink href="#">
+        <LogoImg src="logo.svg" alt="Logo" />
+      </LogoLink>
+      <Nav>
+        <Ul>
+          <Li>About</Li>
+          <Li>Careers</Li>
+          <Li>Events</Li>
+          <Li>Products</Li>
+          <Li>Support</Li>
+        </Ul>
+      </Nav>
+    </Header>
   );
 }
 
-export { Header };
+export { HeaderElement };

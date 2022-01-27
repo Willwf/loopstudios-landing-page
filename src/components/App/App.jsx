@@ -1,15 +1,15 @@
-import { Header } from "./Header/Header";
-import { Homepage } from "../Homepage/Homepage";
-import { appDiv } from "./styles.js";
-import { GlobalStyle } from "./global.js";
+import { GlobalStyle } from "../styles/global";
+import { HeaderElement } from "./Header/Header";
+import { Homepage } from "./Homepage/Homepage";
+import { AppDiv } from "./styles.js";
 
 function App() {
   return (
-    <appDiv>
+    <AppDiv>
       <GlobalStyle />
-      <Header />
+      <HeaderElement />
       <Homepage />
-    </appDiv>
+    </AppDiv>
   );
 }
 
