@@ -2,16 +2,16 @@ import styled from "styled-components";
 import * as colors from "../../styles/variables";
 
 export const Header = styled.header`
-  background-color: ${colors.black};
-  color: ${colors.white};
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  height: 20vh;
+  height: 10vh;
 
   &.active {
+    background-color: ${colors.black};
+    color: ${colors.white};
+
     display: grid;
     grid-template-columns: 6fr 1fr;
     grid-template-rows: 1fr 9fr;
@@ -30,9 +30,14 @@ export const LogoLink = styled.a`
     }
   }
 
+  &.menuIcon {
+    justify-self: end;
+
+    margin-right: 2rem;
+  }
+
   cursor: pointer;
 
-  justify-self: center;
   align-self: end;
 `;
 

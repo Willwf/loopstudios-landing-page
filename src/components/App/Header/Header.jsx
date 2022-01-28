@@ -1,15 +1,33 @@
 import { Header, LogoLink, LogoImg, Links } from "./styles";
+import { useEffect, useState } from "react";
 
 function HeaderElement() {
+  const [isActive, setActive] = useState(false);
+  const [icon, setIcon] = useState(false);
+
+  useEffect(() => {
+    setIcon(!icon);
+  }, [isActive]);
+
+  const handleMenu = () => {
+    setActive(!isActive);
+  };
+
   return (
-    <Header className="">
+    <Header className={`${isActive ? "active" : ""}`}>
       <LogoLink className="logo" href="#">
         <LogoImg src="logo.svg" alt="Logo" />
       </LogoLink>
-      <LogoLink>
-        <LogoImg src="./icon-close.svg" alt="Hamburger Icon" />
+      <LogoLink
+        onClick={handleMenu}
+        className={`menuIcon ${isActive ? "active" : ""}`}
+      >
+        <LogoImg
+          src={icon ? "./icon-hamburger.svg" : "./icon-close.svg"}
+          alt={!icon ? "Hamburger Icon" : "Close Icon"}
+        />
       </LogoLink>
-      <Links className="">
+      <Links className={`${isActive ? "active" : ""}`}>
         <ul>
           <li>
             <a href="#">About</a>

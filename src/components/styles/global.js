@@ -9,4 +9,10 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+
+  body {
+    background: url("./mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 `;
