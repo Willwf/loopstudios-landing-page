@@ -1,20 +1,33 @@
-import { Header, LogoLink, LogoImg, Nav, Ul, Li } from "./styles";
+import { Header, LogoLink, LogoImg, Links } from "./styles";
 
 function HeaderElement() {
   return (
-    <Header>
-      <LogoLink href="#">
+    <Header className="">
+      <LogoLink className="logo" href="#">
         <LogoImg src="logo.svg" alt="Logo" />
       </LogoLink>
-      <Nav>
-        <Ul>
-          <Li>About</Li>
-          <Li>Careers</Li>
-          <Li>Events</Li>
-          <Li>Products</Li>
-          <Li>Support</Li>
-        </Ul>
-      </Nav>
+      <LogoLink>
+        <LogoImg src="./icon-close.svg" alt="Hamburger Icon" />
+      </LogoLink>
+      <Links className="">
+        <ul>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+        </ul>
+      </Links>
     </Header>
   );
 }
