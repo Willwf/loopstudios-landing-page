@@ -1,4 +1,5 @@
 import { GlobalStyle } from "../styles/global";
+import { Footer } from "./Footer/Footer";
 import { HeaderElement } from "./Header/Header";
 import { Homepage } from "./Homepage/Homepage";
 import { AppDiv } from "./styles.js";
@@ -9,6 +10,7 @@ function App() {
       <GlobalStyle />
       <HeaderElement />
       <Homepage />
+      <Footer />
     </AppDiv>
   );
 }

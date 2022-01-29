@@ -38,6 +38,10 @@ export const LogoLink = styled.a`
 
   cursor: pointer;
 
+  &:hover {
+    opacity: 0.7;
+  }
+
   align-self: end;
 `;
 
@@ -72,6 +76,10 @@ export const Links = styled.nav`
         opacity: 0.8;
 
         cursor: pointer;
+
+        &:hover {
+          opacity: 0.7;
+        }
 
         a {
           text-decoration: none;

@@ -13,6 +13,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: url("./mobile/image-hero.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
   }
 `;
