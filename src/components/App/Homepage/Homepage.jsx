@@ -41,7 +41,11 @@ function Homepage() {
             src="./mobile/image-deep-earth.jpg"
             alt="Deep Earth picture"
           />
-          <CreationTitle>Deep Earth</CreationTitle>
+          <CreationTitle>
+            Deep
+            <br />
+            Earth
+          </CreationTitle>
         </Creation>
 
         <Creation>
@@ -49,7 +53,11 @@ function Homepage() {
             src="./mobile/image-night-arcade.jpg"
             alt="Deep Earth picture"
           />
-          <CreationTitle>Night Arcade</CreationTitle>
+          <CreationTitle>
+            Night
+            <br />
+            Arcade
+          </CreationTitle>
         </Creation>
 
         <Creation>
@@ -57,12 +65,20 @@ function Homepage() {
             src="./mobile/image-soccer-team.jpg"
             alt="Deep Earth picture"
           />
-          <CreationTitle>Soccer Team VR</CreationTitle>
+          <CreationTitle>
+            Soccer
+            <br />
+            Team VR
+          </CreationTitle>
         </Creation>
 
         <Creation>
           <CreationImg src="./mobile/image-grid.jpg" alt="Deep Earth picture" />
-          <CreationTitle>The Grid</CreationTitle>
+          <CreationTitle>
+            The
+            <br />
+            Grid
+          </CreationTitle>
         </Creation>
 
         <Creation>
@@ -70,7 +86,11 @@ function Homepage() {
             src="./mobile/image-from-above.jpg"
             alt="Deep Earth picture"
           />
-          <CreationTitle>From Up Above VR</CreationTitle>
+          <CreationTitle>
+            From Up
+            <br />
+            Above VR
+          </CreationTitle>
         </Creation>
 
         <Creation>
@@ -78,7 +98,11 @@ function Homepage() {
             src="./mobile/image-pocket-borealis.jpg"
             alt="Deep Earth picture"
           />
-          <CreationTitle>Pocket Borealis</CreationTitle>
+          <CreationTitle>
+            Pocket
+            <br />
+            Borealis
+          </CreationTitle>
         </Creation>
 
         <Creation>
@@ -86,7 +110,11 @@ function Homepage() {
             src="./mobile/image-curiosity.jpg"
             alt="Deep Earth picture"
           />
-          <CreationTitle>The Curiosity</CreationTitle>
+          <CreationTitle>
+            The
+            <br />
+            Curiosity
+          </CreationTitle>
         </Creation>
 
         <Creation>
@@ -94,7 +122,11 @@ function Homepage() {
             src="./mobile/image-fisheye.jpg"
             alt="Deep Earth picture"
           />
-          <CreationTitle>Make It Fisheye</CreationTitle>
+          <CreationTitle>
+            Make It
+            <br />
+            Fisheye
+          </CreationTitle>
         </Creation>
 
         <CreationsButton>See All</CreationsButton>

@@ -93,6 +93,8 @@ export const Creation = styled.div`
   align-items: center;
 
   position: relative;
+
+  cursor: pointer;
 `;
 
 export const CreationImg = styled.img`
@@ -105,13 +107,26 @@ export const CreationTitle = styled.p`
   color: ${colors.white};
   width: 10rem;
 
+  width: 70vw;
+  height: 12vh;
+  padding: 3vh 5vw;
+
   position: absolute;
-  left: 2rem;
-  bottom: 2rem;
+  left: 0;
+
+  display: flex;
+  align-items: end;
+
+  background: linear-gradient(to right, #000000bf, #00000000);
 
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
+
+  &:hover {
+    background: #ffffff99;
+    color: ${colors.black};
+  }
 `;
 export const CreationsButton = styled.button`
   width: 40vw;
@@ -127,6 +142,7 @@ export const CreationsButton = styled.button`
   cursor: pointer;
 
   &:hover {
-    background: #00000012;
+    background: ${colors.black};
+    color: ${colors.white};
   }
 `;

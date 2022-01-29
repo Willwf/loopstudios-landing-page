@@ -35,7 +35,7 @@ export const Links = styled.nav`
     justify-content: center;
     align-items: center;
 
-    gap: 1.5rem;
+    gap: 1rem;
 
     li {
       font-size: 1.2rem;
@@ -44,8 +44,10 @@ export const Links = styled.nav`
 
       cursor: pointer;
 
+      height: 2.2rem;
+
       &:hover {
-        opacity: 0.7;
+        border-bottom: 0.1rem solid;
       }
 
       a {
@@ -59,7 +61,8 @@ export const Links = styled.nav`
 export const SocialMediaIcons = styled.nav`
   display: flex;
   justify-content: center;
-  align-items: center;
+
+  height: 3rem;
 
   margin: 4rem 0 1.5rem 0;
   gap: 1.5rem;
@@ -68,8 +71,10 @@ export const SocialMediaIcons = styled.nav`
 export const SocialMediaLink = styled.a`
   cursor: pointer;
 
+  height: 2.7rem;
+
   &:hover {
-    opacity: 0.7;
+    border-bottom: 0.3rem solid;
   }
 `;
 
