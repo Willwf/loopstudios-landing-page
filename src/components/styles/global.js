@@ -15,4 +15,16 @@ export const GlobalStyle = createGlobalStyle`
     background-repeat: no-repeat;
     background-size: 100vw;
   }
+
+  @media (min-width: 1024px) {
+    :root {
+      font-size: 100%;
+    }
+
+    body {
+    background: url("./desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+  }
+  }
 `;
