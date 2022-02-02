@@ -45,7 +45,13 @@ export const LogoLink = styled.a`
   align-self: end;
 `;
 
-export const LogoImg = styled.img``;
+export const LogoImg = styled.img`
+  @media (min-width: 1024px) {
+    &.menuIcon {
+      display: none;
+    }
+  }
+`;
 
 export const Links = styled.nav`
   display: none;
@@ -74,6 +80,37 @@ export const Links = styled.nav`
         font-family: "Josefin Sans", sans-serif;
         text-transform: uppercase;
         opacity: 0.8;
+
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.7;
+        }
+
+        a {
+          text-decoration: none;
+          color: ${colors.white};
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    display: flex;
+    align-self: end;
+    justify-self: flex-start;
+    padding: 0.5rem;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+
+      gap: 2rem;
+
+      li {
+        font-size: 1.1rem;
+        font-family: "Josefin Sans", sans-serif;
 
         cursor: pointer;
 

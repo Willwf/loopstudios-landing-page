@@ -25,6 +25,7 @@ function HeaderElement() {
         <LogoImg
           src={icon ? "./icon-hamburger.svg" : "./icon-close.svg"}
           alt={!icon ? "Hamburger Icon" : "Close Icon"}
+          className="menuIcon"
         />
       </LogoLink>
       <Links className={`${isActive ? "active" : ""}`}>
