@@ -2,6 +2,7 @@ import {
   ContainerTitle,
   Creation,
   CreationImg,
+  Creations,
   CreationsButton,
   CreationsContainer,
   CreationTitle,
@@ -29,105 +30,112 @@ function Homepage() {
         <Description>
           Founded in 2011, Loopstudios has been producing world-class virtual
           reality projects for some of the best companies around the globe. Our
-          award-winning creations have transformed business through digital
+          award-winning creations have transformed businesses through digital
           experiences that bind to their brand.
         </Description>
       </DescriptionContainer>
       <CreationsContainer>
         <ContainerTitle>Our Creations</ContainerTitle>
 
-        <Creation>
-          <CreationImg
-            src="./mobile/image-deep-earth.jpg"
-            alt="Deep Earth picture"
-          />
-          <CreationTitle>
-            Deep
-            <br />
-            Earth
-          </CreationTitle>
-        </Creation>
+        <Creations>
+          <Creation>
+            <CreationImg
+              src="./mobile/image-deep-earth.jpg"
+              // srcset="./mobile/image-deep-earth.jpg 375w,
+              //         ./desktop/image-deep-earth.jpg 1024w"
+              alt="Deep Earth picture"
+            />
+            <CreationTitle>
+              Deep
+              <br />
+              Earth
+            </CreationTitle>
+          </Creation>
 
-        <Creation>
-          <CreationImg
-            src="./mobile/image-night-arcade.jpg"
-            alt="Deep Earth picture"
-          />
-          <CreationTitle>
-            Night
-            <br />
-            Arcade
-          </CreationTitle>
-        </Creation>
+          <Creation>
+            <CreationImg
+              src="./mobile/image-night-arcade.jpg"
+              alt="Deep Earth picture"
+            />
+            <CreationTitle>
+              Night
+              <br />
+              Arcade
+            </CreationTitle>
+          </Creation>
 
-        <Creation>
-          <CreationImg
-            src="./mobile/image-soccer-team.jpg"
-            alt="Deep Earth picture"
-          />
-          <CreationTitle>
-            Soccer
-            <br />
-            Team VR
-          </CreationTitle>
-        </Creation>
+          <Creation>
+            <CreationImg
+              src="./mobile/image-soccer-team.jpg"
+              alt="Deep Earth picture"
+            />
+            <CreationTitle>
+              Soccer
+              <br />
+              Team VR
+            </CreationTitle>
+          </Creation>
 
-        <Creation>
-          <CreationImg src="./mobile/image-grid.jpg" alt="Deep Earth picture" />
-          <CreationTitle>
-            The
-            <br />
-            Grid
-          </CreationTitle>
-        </Creation>
+          <Creation>
+            <CreationImg
+              src="./mobile/image-grid.jpg"
+              alt="Deep Earth picture"
+            />
+            <CreationTitle>
+              The
+              <br />
+              Grid
+            </CreationTitle>
+          </Creation>
 
-        <Creation>
-          <CreationImg
-            src="./mobile/image-from-above.jpg"
-            alt="Deep Earth picture"
-          />
-          <CreationTitle>
-            From Up
-            <br />
-            Above VR
-          </CreationTitle>
-        </Creation>
+          <Creation>
+            <CreationImg
+              src="./mobile/image-from-above.jpg"
+              alt="Deep Earth picture"
+            />
+            <CreationTitle>
+              From Up
+              <br />
+              Above VR
+            </CreationTitle>
+          </Creation>
 
-        <Creation>
-          <CreationImg
-            src="./mobile/image-pocket-borealis.jpg"
-            alt="Deep Earth picture"
-          />
-          <CreationTitle>
-            Pocket
-            <br />
-            Borealis
-          </CreationTitle>
-        </Creation>
+          <Creation>
+            <CreationImg
+              src="./mobile/image-pocket-borealis.jpg"
+              alt="Deep Earth picture"
+            />
+            <CreationTitle>
+              Pocket
+              <br />
+              Borealis
+            </CreationTitle>
+          </Creation>
 
-        <Creation>
-          <CreationImg
-            src="./mobile/image-curiosity.jpg"
-            alt="Deep Earth picture"
-          />
-          <CreationTitle>
-            The
-            <br />
-            Curiosity
-          </CreationTitle>
-        </Creation>
+          <Creation>
+            <CreationImg
+              src="./mobile/image-curiosity.jpg"
+              alt="Deep Earth picture"
+            />
+            <CreationTitle>
+              The
+              <br />
+              Curiosity
+            </CreationTitle>
+          </Creation>
 
-        <Creation>
-          <CreationImg
-            src="./mobile/image-fisheye.jpg"
-            alt="Deep Earth picture"
-          />
-          <CreationTitle>
-            Make It
-            <br />
-            Fisheye
-          </CreationTitle>
-        </Creation>
+          <Creation>
+            <CreationImg
+              src="./mobile/image-fisheye.jpg"
+              alt="Deep Earth picture"
+            />
+            <CreationTitle>
+              Make It
+              <br />
+              Fisheye
+            </CreationTitle>
+          </Creation>
+        </Creations>
 
         <CreationsButton>See All</CreationsButton>
       </CreationsContainer>

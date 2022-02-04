@@ -17,6 +17,11 @@ export const Header = styled.header`
     grid-template-rows: 1fr 9fr;
     height: 100vh;
   }
+
+  @media (min-width: 1024px) {
+    max-width: 80vw;
+    margin: auto;
+  }
 `;
 
 export const LogoLink = styled.a`

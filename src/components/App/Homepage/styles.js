@@ -6,6 +6,14 @@ export const Main = styled.main`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 1024px) {
+    justify-content: initial;
+    align-items: initial;
+
+    max-width: 80vw;
+    margin: auto;
+  }
 `;
 
 export const TitleContainer = styled.div`
@@ -14,6 +22,11 @@ export const TitleContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 1024px) {
+    height: 70vh;
+    justify-content: initial;
+  }
 `;
 
 export const Title = styled.h1`
@@ -26,6 +39,10 @@ export const Title = styled.h1`
   border: 0.2rem solid;
   padding: 2rem;
   margin: 2rem;
+
+  @media (min-width: 1024px) {
+    width: 40vw;
+  }
 `;
 
 export const DescriptionContainer = styled.div`
@@ -37,11 +54,27 @@ export const DescriptionContainer = styled.div`
   align-items: center;
 
   margin-top: 10rem;
+
+  @media (min-width: 1024px) {
+    height: auto;
+
+    flex-direction: row;
+    justify-content: initial;
+    align-items: initial;
+
+    position: relative;
+  }
 `;
 
 export const DescriptionImg = styled.img`
   width: 80vw;
   height: auto;
+
+  @media (min-width: 1024px) {
+    width: 50vw;
+
+    align-self: initial;
+  }
 `;
 
 export const DescriptionTitle = styled.h2`
@@ -52,6 +85,19 @@ export const DescriptionTitle = styled.h2`
   text-align: center;
 
   margin: 4rem 0 2rem 0;
+
+  @media (min-width: 1024px) {
+    position: absolute;
+    right: 0;
+    bottom: 8rem;
+
+    background-color: ${colors.white};
+    text-align: start;
+
+    max-width: 30rem;
+    margin: 0;
+    padding: 7rem 0 0 7rem;
+  }
 `;
 
 export const Description = styled.p`
@@ -63,6 +109,21 @@ export const Description = styled.p`
 
   width: 75vw;
   line-height: 2.5rem;
+
+  @media (min-width: 1024px) {
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+
+    background-color: ${colors.white};
+    text-align: start;
+    line-height: 2rem;
+
+    font-size: 1rem;
+    max-width: 30rem;
+    margin: 0;
+    padding: 5px 0 0 7rem;
+  }
 `;
 
 export const CreationsContainer = styled.section`
@@ -72,6 +133,11 @@ export const CreationsContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 
 export const ContainerTitle = styled.h2`
@@ -82,6 +148,23 @@ export const ContainerTitle = styled.h2`
   text-align: center;
 
   margin-bottom: 5rem;
+
+  @media (min-width: 1024px) {
+    grid-column: 1;
+    justify-self: start;
+    align-self: center;
+  }
+`;
+
+export const Creations = styled.div`
+  @media (min-width: 1024px) {
+    grid-column: 1 / 3;
+    grid-row: 2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+  }
 `;
 
 export const Creation = styled.div`
@@ -95,11 +178,22 @@ export const Creation = styled.div`
   position: relative;
 
   cursor: pointer;
+
+  @media (min-width: 1024px) {
+    margin-bottom: 0;
+
+    /* grid-row: 2 / 4; */
+  }
 `;
 
 export const CreationImg = styled.img`
   width: 80vw;
   height: 18vh;
+
+  @media (min-width: 1024px) {
+    width: 18vw;
+    height: 50vh;
+  }
 `;
 
 export const CreationTitle = styled.p`
@@ -127,6 +221,15 @@ export const CreationTitle = styled.p`
     background: #ffffff99;
     color: ${colors.black};
   }
+
+  @media (min-width: 1024px) {
+    width: 8vw;
+    height: 44vh;
+
+    background: linear-gradient(to top, #000000bf, #00000000);
+
+    padding: 3vh 7vw 3vh 3vw;
+  }
 `;
 export const CreationsButton = styled.button`
   width: 40vw;
@@ -144,5 +247,16 @@ export const CreationsButton = styled.button`
   &:hover {
     background: ${colors.black};
     color: ${colors.white};
+  }
+
+  @media (min-width: 1024px) {
+    width: 12vw;
+    height: 5vh;
+
+    grid-column: 2;
+    grid-row: 1;
+
+    justify-self: end;
+    align-self: flex-start;
   }
 `;
