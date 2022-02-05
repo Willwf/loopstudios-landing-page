@@ -11,14 +11,26 @@ export const FooterContainer = styled.footer`
   align-items: center;
 
   width: 100vw;
+
+  @media (min-width: 1024px) {
+    display: grid;
+    grid: 7rem 7rem / 1fr 1fr;
+  }
 `;
 
 export const LogoLink = styled.a`
-  cursor: pointer;
   margin: 4rem 0 2rem 0;
 
-  &:hover {
+  img:hover {
+    cursor: pointer;
     opacity: 0.7;
+  }
+
+  @media (min-width: 1024px) {
+    padding-left: 10vw;
+    margin: 0;
+
+    align-self: end;
   }
 `;
 
@@ -56,6 +68,20 @@ export const Links = styled.nav`
       }
     }
   }
+
+  @media (min-width: 1024px) {
+    grid-row: 2;
+    grid-column: 1;
+
+    ul {
+      flex-direction: row;
+
+      justify-content: initial;
+      align-items: initial;
+
+      padding-left: 10vw;
+    }
+  }
 `;
 
 export const SocialMediaIcons = styled.nav`
@@ -66,6 +92,16 @@ export const SocialMediaIcons = styled.nav`
 
   margin: 4rem 0 1.5rem 0;
   gap: 1.5rem;
+
+  @media (min-width: 1024px) {
+    grid-column: 2;
+
+    justify-content: end;
+    align-self: end;
+
+    padding-right: 10vw;
+    margin: 0;
+  }
 `;
 
 export const SocialMediaLink = styled.a`
@@ -88,4 +124,11 @@ export const Copyright = styled.p`
 
   color: ${colors.veryDarkGray};
   margin-bottom: 4rem;
+
+  @media (min-width: 1024px) {
+    padding-right: 10vw;
+    text-align: end;
+
+    margin-bottom: 0;
+  }
 `;
