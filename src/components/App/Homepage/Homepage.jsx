@@ -40,9 +40,11 @@ function Homepage() {
         <Creations>
           <Creation>
             <CreationImg
-              src="./mobile/image-deep-earth.jpg"
-              // srcset="./mobile/image-deep-earth.jpg 375w,
-              //         ./desktop/image-deep-earth.jpg 1024w"
+              srcset="./mobile/image-deep-earth.jpg 654w,
+                      ./desktop/image-deep-earth.jpg 256w"
+              sizes="(min-width: 1024px) 259px,
+                      256px"
+              src="./desktop/image-deep-earth.jpg"
               alt="Deep Earth picture"
             />
             <CreationTitle>
@@ -54,7 +56,7 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./mobile/image-night-arcade.jpg"
+              src="./desktop/image-night-arcade.jpg"
               alt="Deep Earth picture"
             />
             <CreationTitle>
@@ -66,7 +68,7 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./mobile/image-soccer-team.jpg"
+              src="./desktop/image-soccer-team.jpg"
               alt="Deep Earth picture"
             />
             <CreationTitle>
@@ -78,7 +80,7 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./mobile/image-grid.jpg"
+              src="./desktop/image-grid.jpg"
               alt="Deep Earth picture"
             />
             <CreationTitle>
@@ -90,7 +92,7 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./mobile/image-from-above.jpg"
+              src="./desktop/image-from-above.jpg"
               alt="Deep Earth picture"
             />
             <CreationTitle>
@@ -102,7 +104,7 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./mobile/image-pocket-borealis.jpg"
+              src="./desktop/image-pocket-borealis.jpg"
               alt="Deep Earth picture"
             />
             <CreationTitle>
@@ -114,7 +116,7 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./mobile/image-curiosity.jpg"
+              src="./desktop/image-curiosity.jpg"
               alt="Deep Earth picture"
             />
             <CreationTitle>
@@ -126,7 +128,7 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./mobile/image-fisheye.jpg"
+              src="./desktop/image-fisheye.jpg"
               alt="Deep Earth picture"
             />
             <CreationTitle>

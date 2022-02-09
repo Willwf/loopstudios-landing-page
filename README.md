@@ -12,7 +12,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  <!-- - [Useful resources](#useful-resources) -->
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -27,12 +27,16 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshot.jpg)
+> Mobile
+> ![](./public/screenshots/mobile.png)
+
+> Desktop
+> ![](./public/screenshots/desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Willwf/loopstudios-landing-page](https://github.com/Willwf/loopstudios-landing-page)
+- Live Site URL: [https://loopstudios-landing-page-sage.vercel.app/](https://loopstudios-landing-page-sage.vercel.app/)
 
 ## My process
 
@@ -54,10 +58,10 @@ I've used this project to reinforce some HTML, CSS and JS concepts, React traini
 
 For my next project I'm willing to do something using an external API, to fully understand and learn about it, as well something to start learn about back-end.
 
-### Useful resources
+<!-- ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
 
 ## Author
 
