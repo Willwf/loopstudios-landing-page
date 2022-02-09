@@ -193,6 +193,38 @@ export const CreationImg = styled.img`
   @media (min-width: 1024px) {
     width: 18vw;
     height: 50vh;
+
+    &.deepEarth {
+      content: url("./desktop/image-deep-earth.jpg");
+    }
+
+    &.nightArcade {
+      content: url("./desktop/image-night-arcade.jpg");
+    }
+
+    &.soccerTeam {
+      content: url("./desktop/image-soccer-team.jpg");
+    }
+
+    &.grid {
+      content: url("./desktop/image-grid.jpg");
+    }
+
+    &.upAbove {
+      content: url("./desktop/image-from-above.jpg");
+    }
+
+    &.pocketBorealis {
+      content: url("./desktop/image-pocket-borealis.jpg");
+    }
+
+    &.theCuriosity {
+      content: url("./desktop/image-curiosity.jpg");
+    }
+
+    &.fisheye {
+      content: url("./desktop/image-fisheye.jpg");
+    }
   }
 `;
 

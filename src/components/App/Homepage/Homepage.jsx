@@ -40,12 +40,9 @@ function Homepage() {
         <Creations>
           <Creation>
             <CreationImg
-              srcset="./mobile/image-deep-earth.jpg 654w,
-                      ./desktop/image-deep-earth.jpg 256w"
-              sizes="(min-width: 1024px) 259px,
-                      256px"
-              src="./desktop/image-deep-earth.jpg"
+              src="./mobile/image-deep-earth.jpg"
               alt="Deep Earth picture"
+              className="deepEarth"
             />
             <CreationTitle>
               Deep
@@ -56,8 +53,9 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./desktop/image-night-arcade.jpg"
+              src="./mobile/image-night-arcade.jpg"
               alt="Deep Earth picture"
+              className="nightArcade"
             />
             <CreationTitle>
               Night
@@ -68,8 +66,9 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./desktop/image-soccer-team.jpg"
+              src="./mobile/image-soccer-team.jpg"
               alt="Deep Earth picture"
+              className="soccerTeam"
             />
             <CreationTitle>
               Soccer
@@ -80,8 +79,9 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./desktop/image-grid.jpg"
+              src="./mobile/image-grid.jpg"
               alt="Deep Earth picture"
+              className="grid"
             />
             <CreationTitle>
               The
@@ -92,8 +92,9 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./desktop/image-from-above.jpg"
+              src="./mobile/image-from-above.jpg"
               alt="Deep Earth picture"
+              className="upAbove"
             />
             <CreationTitle>
               From Up
@@ -104,8 +105,9 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./desktop/image-pocket-borealis.jpg"
+              src="./mobile/image-pocket-borealis.jpg"
               alt="Deep Earth picture"
+              className="pocketBorealis"
             />
             <CreationTitle>
               Pocket
@@ -116,8 +118,9 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./desktop/image-curiosity.jpg"
+              src="./mobile/image-curiosity.jpg"
               alt="Deep Earth picture"
+              className="theCuriosity"
             />
             <CreationTitle>
               The
@@ -128,8 +131,9 @@ function Homepage() {
 
           <Creation>
             <CreationImg
-              src="./desktop/image-fisheye.jpg"
+              src="./mobile/image-fisheye.jpg"
               alt="Deep Earth picture"
+              className="fisheye"
             />
             <CreationTitle>
               Make It
